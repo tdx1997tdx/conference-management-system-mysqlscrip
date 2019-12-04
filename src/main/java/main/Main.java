@@ -61,7 +61,7 @@ public class Main {
         Document d=reader.read(url);
         Element root=d.getRootElement();
         List<Element> list = root.elements("script");
-        List<String> res=new ArrayList<>();
+        List<String> res=new ArrayList<String>();
         for(Element e:list){
             res.add(e.getText().trim());
         }
