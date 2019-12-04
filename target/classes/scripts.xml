@@ -1,0 +1,8 @@
+<scripts>
+    <script>
+        01_refresh.sql
+    </script>
+    <script>
+        02_createUserTable.sql
+    </script>
+</scripts>
