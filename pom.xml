@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>conference-management-system-mysqlscrip</groupId>
-    <artifactId>conference-management-system-mysqlscrip</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <artifactId>scrip</artifactId>
+    <version>1.0</version>
 
     <properties>
         <java.version>1.8</java.version>
