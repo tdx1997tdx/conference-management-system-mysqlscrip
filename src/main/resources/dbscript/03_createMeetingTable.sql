@@ -13,5 +13,5 @@ create table meeting
 
 
   mark         varchar(100)                       null,
-  meeting_state varchar(10)                        null
+  meeting_state int                                null
 );
