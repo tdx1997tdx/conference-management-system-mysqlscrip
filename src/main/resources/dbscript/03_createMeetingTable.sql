@@ -9,7 +9,7 @@ create table meeting
   recorder     varchar(10)                        null,
 
   topic        varchar(50)                        null,
-  abstract     varchar(100)                       null,
+  meeting_abstract varchar(100)                       null,
 
 
   mark         varchar(100)                       null,
