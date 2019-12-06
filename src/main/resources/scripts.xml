@@ -11,4 +11,7 @@
     <script>
         04_createUserAndMeetingTable.sql
     </script>
+    <script>
+        05_createRoomTable.sql
+    </script>
 </scripts>
