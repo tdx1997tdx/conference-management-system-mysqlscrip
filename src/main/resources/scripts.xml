@@ -1,6 +1,6 @@
 <scripts>
     <script>
-        01_refresh.sql
+        01_refreshTable.sql
     </script>
     <script>
         02_createUserTable.sql
