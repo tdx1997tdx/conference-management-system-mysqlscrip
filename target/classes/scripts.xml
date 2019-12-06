@@ -5,4 +5,10 @@
     <script>
         02_createUserTable.sql
     </script>
+    <script>
+        03_createMeetingTable.sql
+    </script>
+    <script>
+        04_createUserAndMeetingTable.sql
+    </script>
 </scripts>
