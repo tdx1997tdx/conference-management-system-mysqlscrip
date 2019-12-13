@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe6c1bb1-9343-421f-9197-2b0aed1a4460" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/dbscript/add_data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/scripts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/scripts.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/scripts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/scripts.xml" afterDir="false" />
     </list>
@@ -40,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="36">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -240,7 +236,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576226286666" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576226322813" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -329,7 +325,7 @@
       <workItem from="1575623443663" duration="3497000" />
       <workItem from="1575977259781" duration="1424000" />
       <workItem from="1575980328280" duration="1230000" />
-      <workItem from="1576225180129" duration="1097000" />
+      <workItem from="1576225180129" duration="1133000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1575472841360</created>
@@ -408,11 +404,18 @@
       <option name="project" value="LOCAL" />
       <updated>1576225325609</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="修改配置">
+      <created>1576226307618</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1576226307618</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35497000" />
+    <option name="totallyTimeSpent" value="35533000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1293" height="703" extended-state="6" />
@@ -461,7 +464,8 @@
     <MESSAGE value="微调了user table" />
     <MESSAGE value="添加user_and_meeting表" />
     <MESSAGE value="添加room表" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加room表" />
+    <MESSAGE value="修改配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改配置" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/stop.sh" />
@@ -545,7 +549,7 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="41" />
         </state>
       </provider>
     </entry>
