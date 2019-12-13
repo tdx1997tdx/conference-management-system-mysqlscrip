@@ -3,6 +3,8 @@ create table meeting
   meeting_id   int auto_increment
     primary key,
   meeting_name varchar(20)                        not null,
+  meeting_room_id       int                        null,
+  CONSTRAINT `meeting_room_fk` FOREIGN KEY(hostId) REFERENCES room(room_id),
   start_time   datetime default CURRENT_TIMESTAMP not null,
   end_time     datetime default CURRENT_TIMESTAMP not null,
   hostId       int                        null,
@@ -12,6 +14,5 @@ create table meeting
   topic        varchar(50)                        null,
   meeting_abstract varchar(100)                       null,
   remark       varchar(100)                       null,
-  meeting_state int                                null,
-  meeting_room_id       int                        null
+  meeting_state int                                null
 );
