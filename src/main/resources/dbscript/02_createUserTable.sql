@@ -1,3 +1,4 @@
+-- auto-generated definition
 create table user
 (
   user_id      int auto_increment
@@ -11,9 +12,10 @@ create table user
   position     varchar(10)                        null,
   name         varchar(5)                         null,
   phone        varchar(15)                        null,
-  gender       int                                null,
+  gender       char(1)                               null,
   create_time  datetime default CURRENT_TIMESTAMP not null,
   modify_time  datetime default CURRENT_TIMESTAMP not null,
   constraint user_username_uindex
     unique (username)
 );
+

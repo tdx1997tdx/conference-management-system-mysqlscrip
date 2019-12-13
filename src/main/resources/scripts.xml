@@ -1,11 +1,17 @@
 <scripts>
     <script>
-        01_refresh.sql
+        01_refreshTable.sql
     </script>
     <script>
         02_createUserTable.sql
     </script>
     <script>
         03_createMeetingTable.sql
+    </script>
+    <script>
+        04_createUserAndMeetingTable.sql
+    </script>
+    <script>
+        05_createRoomTable.sql
     </script>
 </scripts>
