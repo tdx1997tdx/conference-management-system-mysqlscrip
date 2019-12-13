@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe6c1bb1-9343-421f-9197-2b0aed1a4460" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/dbscript/05_createRoomTable.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/dbscript/04_createUserAndMeetingTable.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/dbscript/04_createUserAndMeetingTable.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/scripts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/scripts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/dbscript/05_createRoomTable.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/dbscript/05_createRoomTable.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dbscript/01_refresh.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/scripts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/scripts.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,19 +29,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="969">
+            <state relative-caret-position="234">
               <caret line="63" column="49" selection-start-line="63" selection-start-column="49" selection-end-line="63" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2160#2168#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/scripts.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
@@ -91,7 +92,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/dbscript/04_createUserAndMeetingTable.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="247">
-              <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+              <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -99,8 +100,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/dbscript/05_createRoomTable.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="361">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -131,8 +132,8 @@
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/dbscript/02_createUserTable.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/dbscript/04_createUserAndMeetingTable.sql" />
-        <option value="$PROJECT_DIR$/src/main/resources/dbscript/05_createRoomTable.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/scripts.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/dbscript/05_createRoomTable.sql" />
       </list>
     </option>
   </component>
@@ -213,6 +214,14 @@
               <item name="conference-management-system-mysqlscrip" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="conferenceSystemmySqlscrip" type="b2602c69:ProjectViewProjectNode" />
+              <item name="conference-management-system-mysqlscrip" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -238,8 +247,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575639453224" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../conference-management-system-back-end" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575651633368" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -248,11 +257,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\dev\conference-management-system-mysqlscrip" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\dev\conference-management-system-mysqlscrip\src\main\resources\dbscript" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\dev\conference-management-system-mysqlscrip\src\main\resources" />
+      <recent name="F:\dev\conference-management-system-mysqlscrip" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -322,7 +332,9 @@
       <workItem from="1575472790234" duration="3194000" />
       <workItem from="1575476825794" duration="3649000" />
       <workItem from="1575549990735" duration="8748000" />
-      <workItem from="1575623443663" duration="2023000" />
+      <workItem from="1575623443663" duration="3497000" />
+      <workItem from="1575977259781" duration="1424000" />
+      <workItem from="1575980328280" duration="1230000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1575472841360</created>
@@ -387,17 +399,23 @@
       <option name="project" value="LOCAL" />
       <updated>1575607396655</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="添加room表">
+      <created>1575639479114</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1575639479114</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30272000" />
+    <option name="totallyTimeSpent" value="34400000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1293" height="703" extended-state="6" />
-    <editor active="true" />
+    <frame x="-6" y="-6" width="1293" height="703" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49739584" visible="true" weight="0.25910932" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49739584" visible="true" weight="0.26072875" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -406,7 +424,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5026042" side_tool="true" weight="0.24939272" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32984293" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32867134" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32867134" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -439,7 +457,8 @@
     <MESSAGE value="update readme" />
     <MESSAGE value="微调了user table" />
     <MESSAGE value="添加user_and_meeting表" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加user_and_meeting表" />
+    <MESSAGE value="添加room表" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加room表" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/stop.sh" />
@@ -450,13 +469,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/main/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/scripts.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="63" column="49" selection-start-line="63" selection-start-column="49" selection-end-line="63" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="285">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -480,31 +503,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/dbscript/04_createUserAndMeetingTable.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
-          <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/dbscript/05_createRoomTable.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="361">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/scripts.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="234">
+          <caret line="63" column="49" selection-start-line="63" selection-start-column="49" selection-end-line="63" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2160#2168#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
