@@ -6,13 +6,19 @@
         02_createUserTable.sql
     </script>
     <script>
-        03_createRoomTable.sql
+        03_createDeviceTable.sql
     </script>
     <script>
-        04_createMeetingTable.sql
+        04_createRoomTable.sql
     </script>
     <script>
-        05_createUserAndMeetingTable.sql
+        05_createMeetingTable.sql
+    </script>
+    <script>
+        06_createUserAndMeetingTable.sql
+    </script>
+    <script>
+        07_createRoomAndDeviceTable.sql
     </script>
     <script>
         add_data.sql
