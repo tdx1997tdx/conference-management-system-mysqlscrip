@@ -1,5 +1,5 @@
 -- auto-generated definition
-create table user_and_device
+create table room_and_device
 (
   room_id    int not null,
   device_id int not null,
