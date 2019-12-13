@@ -14,4 +14,7 @@
     <script>
         05_createRoomTable.sql
     </script>
+    <script>
+        add_data.sql
+    </script>
 </scripts>
