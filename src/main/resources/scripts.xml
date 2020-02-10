@@ -9,10 +9,13 @@
         03_createRoomTable.sql
     </script>
     <script>
-        04_createMeetingTable.sql
+        04_createDeviceTable.sql
     </script>
     <script>
-        05_createUserAndMeetingTable.sql
+        05_createMeetingTable.sql
+    </script>
+    <script>
+        06_createUserAndMeetingTable.sql
     </script>
     <script>
         add_data.sql
