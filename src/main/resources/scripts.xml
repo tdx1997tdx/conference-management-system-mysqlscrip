@@ -15,7 +15,10 @@
         05_createMeetingTable.sql
     </script>
     <script>
-        06_createUserAndMeetingTable.sql
+        06_createFormTable.sql
+    </script>
+    <script>
+        07_createUserAndMeetingTable.sql
     </script>
     <script>
         add_data.sql
