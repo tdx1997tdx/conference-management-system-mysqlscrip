@@ -12,9 +12,10 @@ create table user
   position     varchar(10)                        null,
   name         varchar(5)                         null,
   phone        varchar(15)                        null,
-  gender       char(1)                               null,
+  gender       char                               null,
   create_time  datetime default CURRENT_TIMESTAMP not null,
   modify_time  datetime default CURRENT_TIMESTAMP not null,
+  state        int      default 2                 null,
   constraint user_username_uindex
     unique (username)
 );
