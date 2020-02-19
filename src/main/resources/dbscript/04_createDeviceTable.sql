@@ -7,7 +7,7 @@ create table device
   device_name   varchar(20)                     not null,
   brand         varchar(20)                     null,
   device_type   varchar(20)                     null,
-  repair_times  int                             null,
+  repair_time  int                             null,
   room_id       int                             not null,
   mttr          time                            null ,
   mtbf          time                            null ,

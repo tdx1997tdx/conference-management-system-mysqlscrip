@@ -21,7 +21,7 @@ insert into user_and_meeting(user_id,meeting_id) values
 (3,1),
 (4,1);
 
-insert into device(device_name, brand, device_type, repair_times, room_id, mttr, mtbf) VALUES
+insert into device(device_name, brand, device_type, repair_time, room_id, mttr, mtbf) VALUES
 ("设备01","品牌1","type1",10,1,"00:00:00","00:00:00"),
 ("设备02","品牌1","type1",0,1,"00:00:00","1:00:00"),
 ("设备03","品牌1","type1",5,2,"00:00:00","00:00:00");
