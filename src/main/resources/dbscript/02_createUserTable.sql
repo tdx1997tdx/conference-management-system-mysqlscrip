@@ -15,7 +15,6 @@ create table user
   gender       char                               null,
   create_time  datetime default CURRENT_TIMESTAMP not null,
   modify_time  datetime default CURRENT_TIMESTAMP not null,
-  state        int      default 2                 null,
   constraint user_username_uindex
     unique (username)
 );

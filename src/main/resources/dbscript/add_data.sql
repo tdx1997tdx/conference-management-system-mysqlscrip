@@ -1,9 +1,9 @@
-insert into user(username,password,role,email,name,phone,gender,state) values
-("tdx","dexuan97",1,"798637048@qq.com","唐德轩",18126449698,"男",1),
-("tom",123,1,"23435458@qq.com","堂堂",18126449698,"男",0),
-("zwm",123,1,"23435458@qq.com","赵韦铭",1223323221,"男",2),
-("zxs",123,2,"23435458@qq.com","搜索",1223323221,"男",2),
-("zdm",123,1,"asdas@qq.com","hhh",1223323221,"男",2);
+insert into user(username,password,role,email,name,phone,gender) values
+("tdx","dexuan97",1,"798637048@qq.com","唐德轩",18126449698,"男"),
+("tom",123,1,"23435458@qq.com","堂堂",18126449698,"男"),
+("zwm",123,1,"23435458@qq.com","赵韦铭",1223323221,"男"),
+("zxs",123,2,"23435458@qq.com","搜索",1223323221,"男"),
+("zdm",123,1,"asdas@qq.com","hhh",1223323221,"男");
 
 insert into room(room_name,province,city,block,building,floor,room_number,room_volume,mark,country) values
 ("会议室01","广东省","深圳市","南山区","南方科技大学","荔园",206,4,"快来玩4","中国"),

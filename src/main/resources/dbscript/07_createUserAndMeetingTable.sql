@@ -1,8 +1,10 @@
 -- auto-generated definition
 create table user_and_meeting
 (
-  user_id    int not null,
-  meeting_id int not null,
+  user_id    int          not null,
+  meeting_id int          not null,
+  state      int          null,
+  message    varchar(100) null,
   primary key (user_id, meeting_id),
   constraint user_and_meeting_meeting_meeting_id_fk
     foreign key (meeting_id) references meeting (meeting_id)
@@ -11,3 +13,4 @@ create table user_and_meeting
     foreign key (user_id) references user (user_id)
       on update cascade on delete cascade
 );
+
