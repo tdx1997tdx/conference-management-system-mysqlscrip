@@ -21,6 +21,9 @@
         07_createUserAndMeetingTable.sql
     </script>
     <script>
+        08_createMessageTable.sql
+    </script>
+    <script>
         add_data.sql
     </script>
 </scripts>
