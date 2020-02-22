@@ -4,6 +4,7 @@ create table user_and_meeting
   user_id    int          not null,
   meeting_id int          not null,
   state      int          null,
+  mem        int          null,
   message    varchar(100) null,
   primary key (user_id, meeting_id),
   constraint user_and_meeting_meeting_meeting_id_fk
@@ -13,4 +14,3 @@ create table user_and_meeting
     foreign key (user_id) references user (user_id)
       on update cascade on delete cascade
 );
-
