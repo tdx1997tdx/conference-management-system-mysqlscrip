@@ -35,3 +35,6 @@ insert into message(message_topic, message_body, send_time, sender_name, receive
 ("消息01","消息体1","2020-02-16 00:00:00", "sender01", "receiver01"),
 ("消息02","消息体2","2020-02-16 10:00:00", "sender01", "receiver01"),
 ("消息03","消息体3","2020-02-16 00:00:00", "sender01", "receiver01");
+
+insert into message(message_topic, message_body, receiver_name) VALUES
+("消息04","消息体4", "receiver01");
