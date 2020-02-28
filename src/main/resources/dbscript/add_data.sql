@@ -30,3 +30,8 @@ insert into form(form_name, device_id, room_id, repair_man, service_man, verify_
 ("表单1",1,1,"repair_man 01","service_man 01","verify_man 01","reason 01","measure 01"),
 ("表单2",2,1,"repair_man 01","service_man 01","verify_man 01","reason 01","measure 01"),
 ("表单3",1,2,"repair_man 01","service_man 01","verify_man 01","reason 01","measure 01");
+
+insert into message(message_topic, message_body, send_time, sender_name, receiver_name) VALUES
+("消息01","消息体1","2020-02-16 00:00:00", "sender01", "receiver01"),
+("消息02","消息体2","2020-02-16 10:00:00", "sender01", "receiver01"),
+("消息03","消息体3","2020-02-16 00:00:00", "sender01", "receiver01");
