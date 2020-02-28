@@ -4,7 +4,6 @@ create table user_and_meeting
   user_id    int          not null,
   meeting_id int          not null,
   state      int          null,
-  mem        int          null,
   message    varchar(100) null,
   primary key (user_id, meeting_id),
   constraint user_and_meeting_meeting_meeting_id_fk

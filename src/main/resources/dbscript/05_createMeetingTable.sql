@@ -13,8 +13,6 @@ create table meeting
   meeting_abstract varchar(100)                       null,
   remark           varchar(100)                       null,
   meeting_state    int                                null,
-  constraint meeting_meeting_name_uindex
-    unique (meeting_name),
   constraint host_fk
     foreign key (host_id) references user (user_id)
       on update cascade on delete cascade,
