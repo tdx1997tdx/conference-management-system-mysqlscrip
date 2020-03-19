@@ -21,10 +21,11 @@ insert into user_and_meeting(user_id,meeting_id) values
 (3,1),
 (4,1);
 
-insert into device(device_name, brand, device_type, repair_time, room_id, mttr, mtbf) VALUES
-("设备01","品牌1","type1",10,1,"00:00:00","00:00:00"),
-("设备02","品牌1","type1",0,1,"00:00:00","1:00:00"),
-("设备03","品牌1","type1",5,2,"00:00:00","00:00:00");
+insert into device(device_name, brand, device_type, room_id) VALUES
+("电灯","xiaomi","Light",1),
+("电视","huawei","TV",1),
+("音响","xiaomi","SoundBox",2),
+("空调","huawei","AirCon",2);
 
 insert into form(form_name, device_id, room_id, repair_man, service_man, verify_man, reason, measure) VALUES
 ("表单1",1,1,"repair_man 01","service_man 01","verify_man 01","reason 01","measure 01"),
