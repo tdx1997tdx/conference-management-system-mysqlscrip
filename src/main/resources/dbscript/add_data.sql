@@ -1,8 +1,10 @@
 insert into user(username,password,role,email,name,phone,gender) values
+("System","123456",1,"798637048@qq.com","唐德轩",18126449698,"男"),
 ("tdx","dexuan97",1,"798637048@qq.com","唐德轩",18126449698,"男"),
 ("tom",123,1,"23435458@qq.com","堂堂",18126449698,"男"),
 ("zwm",123,1,"23435458@qq.com","赵韦铭",1223323221,"男"),
 ("zxs",123,2,"23435458@qq.com","搜索",1223323221,"男"),
+("yyj",123,2,"23435458@qq.com","搜索",1223323221,"男"),
 ("zdm",123,1,"asdas@qq.com","hhh",1223323221,"男");
 
 insert into room(room_name,province,city,block,building,floor,room_number,room_volume,mark,country) values
@@ -32,10 +34,7 @@ insert into form(form_name, device_id, room_id, repair_man, service_man, verify_
 ("表单2",2,1,"repair_man 01","service_man 01","verify_man 01","reason 01","measure 01"),
 ("表单3",1,2,"repair_man 01","service_man 01","verify_man 01","reason 01","measure 01");
 
-insert into message(message_topic, message_body, send_time, sender_name, receiver_name) VALUES
-("消息01","消息体1","2020-02-16 00:00:00", "sender01", "receiver01"),
-("消息02","消息体2","2020-02-16 10:00:00", "sender01", "receiver01"),
-("消息03","消息体3","2020-02-16 00:00:00", "sender01", "receiver01");
-
-insert into message(message_topic, message_body, receiver_name) VALUES
-("消息04","消息体4", "receiver01");
+insert into message(message_topic, message_body, send_time, sender_id, receiver_id) VALUES
+("消息01","消息体1","2020-02-16 00:00:00", 1, 2),
+("消息02","消息体2","2020-02-16 10:00:00", 2, 3),
+("消息03","消息体3","2020-02-16 00:00:00", 3, 4);
