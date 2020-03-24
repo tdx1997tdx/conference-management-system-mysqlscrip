@@ -1,5 +1,7 @@
+insert into user(username,password,role,name) values
+("System","admin",1,"System");
+
 insert into user(username,password,role,email,name,phone,gender) values
-("System","123456",1,"798637048@qq.com","唐德轩",18126449698,"男"),
 ("tdx","dexuan97",1,"798637048@qq.com","唐德轩",18126449698,"男"),
 ("tom",123,1,"23435458@qq.com","堂堂",18126449698,"男"),
 ("zwm",123,1,"23435458@qq.com","赵韦铭",1223323221,"男"),
@@ -37,4 +39,7 @@ insert into form(form_name, device_id, room_id, repair_man, service_man, verify_
 insert into message(message_topic, message_body, send_time, sender_id, receiver_id) VALUES
 ("消息01","消息体1","2020-02-16 00:00:00", 1, 2),
 ("消息02","消息体2","2020-02-16 10:00:00", 2, 3),
-("消息03","消息体3","2020-02-16 00:00:00", 3, 4);
+("消息03","消息体2","2020-02-16 10:00:00", 2, 3),
+("消息04","消息体2","2020-02-16 10:00:00", 2, 3),
+("消息05","消息体2","2020-02-16 10:00:00", 2, 3),
+("消息06","消息体3","2020-02-16 00:00:00", 3, 4);

@@ -10,7 +10,7 @@ create table user
   organization varchar(20)                        null,
   department   varchar(20)                        null,
   position     varchar(10)                        null,
-  name         varchar(5)                         null,
+  name         varchar(20)                         null,
   phone        varchar(15)                        null,
   gender       char                               null,
   create_time  datetime default CURRENT_TIMESTAMP not null,
