@@ -4,6 +4,7 @@ create table room
   room_id     int auto_increment
     primary key,
   room_name   varchar(20)                        null,
+
   province    varchar(10)                        null,
   city        varchar(10)                        null,
   block       varchar(20)                        null,

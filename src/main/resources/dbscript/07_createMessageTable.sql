@@ -6,13 +6,13 @@ create table message
   message_header      varchar(30)                           null,
   message_topic       varchar(30)                           not null,
   message_body        varchar(200)                          not null,
-  reason              varchar(30)                           null,
 
   sender_id           int         default 1                 null,
   receiver_id         int                                   not null,
+  have_read           int         default 0                 not null,
 
   send_time           datetime    default CURRENT_TIMESTAMP null,
-  have_read           int         default 0                 not null,
+  reason              varchar(30)                           null,
 
   constraint sender_fk
       foreign key (sender_id) references user (user_id)

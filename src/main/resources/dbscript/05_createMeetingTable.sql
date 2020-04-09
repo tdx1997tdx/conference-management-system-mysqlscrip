@@ -9,6 +9,7 @@ create table meeting
   end_time         datetime default CURRENT_TIMESTAMP not null,
   host_id          int                                null,
   recorder_id      int                                null,
+  
   topic            varchar(50)                        null,
   meeting_abstract varchar(100)                       null,
   remark           varchar(100)                       null,
