@@ -31,11 +31,6 @@ insert into device(device_name, brand, device_type, room_id) VALUES
 ("音响","xiaomi","SoundBox",2),
 ("空调","huawei","AirCon",2);
 
-insert into form(form_name, device_id, room_id, repair_man, service_man, verify_man, reason, measure) VALUES
-("表单1",1,1,"repair_man 01","service_man 01","verify_man 01","reason 01","measure 01"),
-("表单2",2,1,"repair_man 01","service_man 01","verify_man 01","reason 01","measure 01"),
-("表单3",1,2,"repair_man 01","service_man 01","verify_man 01","reason 01","measure 01");
-
 insert into message(message_topic, message_body, send_time, sender_id, receiver_id) VALUES
 ("消息01","消息体1","2020-02-16 00:00:00", 1, 2),
 ("消息02","消息体2","2020-02-16 10:00:00", 2, 3),
